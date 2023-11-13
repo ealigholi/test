@@ -1,0 +1,15 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+opencv-python
+Pillow
+torch
+torchvision
+# Add other packages here
+
+# PyTorch and TorchVision wheels
+https://download.pytorch.org/whl/cpu/torch-2.1.0%2Bcpu-cp310-cp310-win_amd64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.9.1%2Bcpu-cp39-cp39-win_amd64.whl
+
